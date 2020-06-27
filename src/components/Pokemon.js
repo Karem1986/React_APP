@@ -3,6 +3,7 @@ import React from "react";
 export default function Pokemon(props) {
   return (
     <p>{props.text}</p>
+
     // <div>
     //   <h2>Apps built with React:</h2>
 

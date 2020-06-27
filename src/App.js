@@ -8,12 +8,15 @@ function App() {
   return (
     <div className="App">
       <main>
+        {/* this is a child component */}
         <Title content="My first prop in React" />
       </main>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        {/* this is a child component */}
         <Title content="The Sky is the limit" />
-        <Pokemon />
+        {/* this is a child component */}
+        <Pokemon text="this is what you can buil with React" />
         <p>
           <code>A new way of creating experiences</code> and make dreams come
           true: get started with React today!
