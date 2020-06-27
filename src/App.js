@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Title from "./components/Title";
+import Pokemon from "./components/Pokemon";
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Title content="The Sky is the limit" />
+        <Pokemon />
         <p>
           <code>A new way of creating experiences</code> and make dreams come
           true: get started with React today!
         </p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
