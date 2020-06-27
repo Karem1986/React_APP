@@ -6,8 +6,10 @@ import Title from "./Title";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <main>
         <Title />
+      </main>
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <code>A new way of creating experiences</code> and make dreams come
