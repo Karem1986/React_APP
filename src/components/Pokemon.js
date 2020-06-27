@@ -1,17 +1,18 @@
 import React from "react";
 
-export default function Pokemon() {
+export default function Pokemon(props) {
   return (
-    <div>
-      <h2>Apps built with React:</h2>
+    <p>{props.text}</p>
+    // <div>
+    //   <h2>Apps built with React:</h2>
 
-      <p>Instagram</p>
-      <p>Twitter</p>
-      <p>Snapchat</p>
+    //   <p>Instagram</p>
+    //   <p>Twitter</p>
+    //   <p>Snapchat</p>
 
-      <p>This can be equat to: {["applications ", "mobileapps ", " more"]}</p>
+    //   <p>This can be equat to: {["applications ", "mobileapps ", " more"]}</p>
 
-      <p>Awesoness is an understatement using React!</p>
-    </div>
+    //   <p>Awesoness is an understatement using React!</p>
+    // </div>
   );
 }
