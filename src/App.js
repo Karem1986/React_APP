@@ -11,6 +11,7 @@ function App() {
       </main>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Title content="The is the limit" />
         <p>
           <code>A new way of creating experiences</code> and make dreams come
           true: get started with React today!
