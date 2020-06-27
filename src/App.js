@@ -8,9 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         <code>What can I build with React?</code> looking forward 
-         to building
-          an application with it! 
+         <code>A new way of creating experiences</code> and make dreams come true: get started with React today! 
         </p>
         <a
           className="App-link"
@@ -18,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello React!
+          This is my first React App
         </a>
       </header>
     </div>
